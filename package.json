@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ann-yurchuk.github.io/game-shop/",
+  "homepage": "https://github.com/Ann-Yurchuk/game-shop",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
