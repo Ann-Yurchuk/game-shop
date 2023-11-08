@@ -1,5 +1,5 @@
-import { useDispatch, useSelector } from "react-redux";
 import PropTypes from "prop-types";
+import { useDispatch, useSelector } from "react-redux";
 import { deleteItemFromCart, setItemInCart } from "../../redux/cart/reducer";
 import { Button } from "../button/button";
 import "./game-buy.css";
@@ -35,6 +35,6 @@ export const GameBuy = ({ game }) => {
 GameBuy.propTypes = {
   game: PropTypes.shape({
     id: PropTypes.number.isRequired,
-    price: PropTypes.number.isRequired,
+    price: PropTypes.number,
   }),
 };

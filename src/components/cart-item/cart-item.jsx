@@ -14,5 +14,5 @@ export const CartItem = ({ title, price }) => {
 
 CartItem.propTypes = {
   title: PropTypes.string.isRequired,
-  price: PropTypes.number.isRequired,
+  price: PropTypes.number,
 };

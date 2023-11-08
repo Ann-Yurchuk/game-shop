@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
-import { calcTotalPrice } from "../../utils";
 import { Button } from "../button/button";
 import { CartItem } from "../cart-item/cart-item";
+import { calcTotalPrice } from "../../utils";
 import "./cart-menu.css";
 
 export const CartMenu = ({ items, onClick }) => {

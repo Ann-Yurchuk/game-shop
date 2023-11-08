@@ -85,3 +85,7 @@ button {
   cursor: pointer;
   border: none;
 }
+
+.secondary-text {
+  color: rgb(80, 82, 84);
+}

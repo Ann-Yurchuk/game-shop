@@ -14,12 +14,6 @@
   font-weight: bold;
 }
 
-.game-item__genre {
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .game-item__details {
   padding: 10px 20px;
 }
