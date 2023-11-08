@@ -37,7 +37,7 @@ GamePageContent.propTypes = {
     image: PropTypes.string,
     description: PropTypes.string,
     genres: PropTypes.arrayOf(PropTypes.string),
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
     price: PropTypes.number,
     id: PropTypes.number.isRequired,
   }),
