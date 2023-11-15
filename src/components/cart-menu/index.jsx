@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import { Button } from "../button/button";
-import { CartItem } from "../cart-item/cart-item";
+import { Button } from "../button";
+import { CartItem } from "../cart-item";
 import { calcTotalPrice } from "../../utils";
 import "./cart-menu.css";
 
@@ -9,13 +9,8 @@ export const CartMenu = ({ items, onClick }) => {
     <div className="cart-menu">
       <ul className="cart-menu__list">
         {items.length > 0
-          ? items.map((game) => (
-              <CartItem
-                key={game.title}
-                price={game.price}
-                title={game.title}
-                id={game.id}
-              />
+          ? items.map(({ title, price, id }) => (
+              <CartItem key={title} price={price} title={title} id={id} />
             ))
           : "Кошик пустий"}
       </ul>

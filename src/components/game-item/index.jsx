@@ -1,21 +1,21 @@
 import PropTypes from "prop-types";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { GameCover } from "../game-cover/game-cover";
-import { GameBuy } from "../game-buy/game-buy";
-import { GameGenreList } from "../game-genre-list/game-genre-list";
+import { GameCover } from "../game-cover";
+import { GameBuy } from "../game-buy";
+import { GameGenreList } from "../game-genre-list";
 import { setCurrentGame } from "../../redux/games/reducer";
 import { URLS } from "../../utils";
 import "./game-item.css";
 
-export const GameItem = ({ game }) => {
-  const { image, title, genres } = game;
+export const GameItem = ({ games }) => {
+  const { image, title, genres } = games;
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
   const handleClick = () => {
-    dispatch(setCurrentGame(game));
-    navigate(`${URLS.game}/${game.title}`);
+    dispatch(setCurrentGame(games));
+    navigate(`${URLS.game}/${games.title}`);
   };
 
   return (
@@ -25,7 +25,7 @@ export const GameItem = ({ game }) => {
         <span className="game-item__title">{title}</span>
         <GameGenreList genres={genres} />
         <div className="game-item__buy">
-          <GameBuy game={game} />
+          <GameBuy games={games} />
         </div>
       </div>
     </div>
@@ -33,7 +33,7 @@ export const GameItem = ({ game }) => {
 };
 
 GameItem.propTypes = {
-  game: PropTypes.shape({
+  games: PropTypes.shape({
     title: PropTypes.string.isRequired,
     genres: PropTypes.arrayOf(PropTypes.string),
     image: PropTypes.string,

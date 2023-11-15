@@ -5,21 +5,21 @@ import { selectCurrentGame } from "../../redux/games/selector";
 import "./game-page.css";
 
 export const GamePage = () => {
-  const game = useSelector(selectCurrentGame);
-  const { title } = game;
+  const games = useSelector(selectCurrentGame);
+  const { title } = games;
 
-  if (!game) return null;
+  if (!games) return null;
 
   return (
     <div className="game-page">
       <h1 className="game-page__title">{title}</h1>
-      <GamePageContent game={game} />
+      <GamePageContent games={games} />
     </div>
   );
 };
 
 GamePage.propTypes = {
-  game: PropTypes.shape({
+  games: PropTypes.shape({
     title: PropTypes.string.isRequired,
   }),
 };

@@ -1,0 +1,17 @@
+.game-row {
+  position: relative;
+  padding: 30px 20px;
+  background-color: rgba(43, 43, 43, 0.3);
+  margin: 20px 0;
+}
+
+.game-in-whish-list {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+.game-row-name {
+  font-size: 1.5rem;
+}

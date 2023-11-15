@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteItemFromCart, setItemInCart } from "../../redux/cart/reducer";
-import { Button } from "../button/button";
+import { Button } from "../button";
 import "./game-buy.css";
 
-export const GameBuy = ({ game }) => {
-  const { price, id } = game;
+export const GameBuy = ({ games }) => {
+  const { price, id } = games;
   const dispatch = useDispatch();
   const items = useSelector((state) => state.cart.itemsInCart);
   const isItemInCart = items.some((item) => item.id === id);
@@ -15,7 +15,7 @@ export const GameBuy = ({ game }) => {
     if (isItemInCart) {
       dispatch(deleteItemFromCart(id));
     } else {
-      dispatch(setItemInCart(game));
+      dispatch(setItemInCart(games));
     }
   };
 
@@ -33,7 +33,7 @@ export const GameBuy = ({ game }) => {
 };
 
 GameBuy.propTypes = {
-  game: PropTypes.shape({
+  games: PropTypes.shape({
     id: PropTypes.number.isRequired,
     price: PropTypes.number,
   }),

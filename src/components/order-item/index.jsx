@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import { useDispatch } from "react-redux";
 import { AiOutlineCloseCircle } from "react-icons/ai";
-import { GameCover } from "../game-cover/game-cover";
+import { GameCover } from "../game-cover";
 import { deleteItemFromCart } from "../../redux/cart/reducer";
 import "./order-item.css";
 
-export const OrderItem = ({ game }) => {
-  const { image, title, price, id } = game;
+export const OrderItem = ({ games }) => {
+  const { image, title, price, id } = games;
   const dispatch = useDispatch();
 
   const handleClick = () => {
@@ -34,7 +34,7 @@ export const OrderItem = ({ game }) => {
 };
 
 OrderItem.propTypes = {
-  game: PropTypes.shape({
+  games: PropTypes.shape({
     id: PropTypes.number,
     title: PropTypes.string.isRequired,
     price: PropTypes.number,
