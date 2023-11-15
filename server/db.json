@@ -1,0 +1,149 @@
+{
+  "games": [
+    {
+      "image": "https://www.overclockers.ua/news/games/130087-forza-horizon-5-1.jpg",
+      "title": "Forza horizon 5",
+      "genres": ["Гонки", "Симулятор", "Відкритий світ"],
+      "category": "Хорори",
+      "inWishList": true,
+      "price": 2343,
+      "video": "https://www.youtube.com/embed/FYH9n37B7Yw",
+      "id": 1,
+      "images": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/ss_00f0090174380eeaf8753bd3d1028b6772c3aebf.1920x1080.jpg?t=1699624973",
+        "https://news.microsoft.com/wp-content/uploads/prod/sites/46/2021/11/fh5mnc.jpg",
+        "https://cdn.shazoo.ru/705173_GIMBak7_1.jpg"
+      ],
+      "description": "На Вас чекає нескінченний калейдоскоп пригод Horizon! Здійснюйте захоплюючі поїздки неймовірно красивим і самобутнім світом Мексики за кермом найбільших автомобілів в історії. Почніть свою пригоду Horizon вже сьогодні, додавши гру до свого списку бажань!"
+    },
+    {
+      "image": "https://assets.xboxservices.com/assets/71/99/71999807-558a-4640-b29a-cb13a721c4bd.jpg?n=299441_GLP-Page-Hero-0_1083x609.jpg",
+      "title": "Battlefield 2042",
+      "genres": ["Екшин", "Шутер", "Війна"],
+      "category": "Хорори",
+      "inWishList": true,
+      "price": 2433,
+      "video": "https://www.youtube.com/embed/ASzOzrB-a9E",
+      "id": 2,
+      "images": [
+        "https://images.stopgame.ru/news/2021/11/19/QAj02RL.jpg",
+        "https://cdn.mos.cms.futurecdn.net/5EBJNXJ4vukwAiftYUzv6K.jpg",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/1517290/ss_d524449b5465f761b47f25e67e55a497bb79507c.1920x1080.jpg?t=1700043279oMRYTEoIaIdehG4+uvoe1cyjxodjp/msmuiWWGAcOhtH4hLIe/wBpfnv6jvQSwHc0HD23zjIDmBmRxGxmrHxKxqH0hviA4fkfPelQ0Vlu4SSDvx6U3h/MptHnzIejdPnSrNrpWiD+dNPIAXUr/v41ivNM4x1eHGjH4h36ioWsKSuaNP05jp3oYB3CZQUJnkf7t9/rSeI0ooEUpeeTSQMgHreatos0ZrdMVEEvHnWp56BEVOnVjR6gr0a29KqaOveszrHBiKwa70srUa2870CGUvFaMLgYUm7CpW70VNjoHicJOoNJtiwm5q2GLXY0vicAl2i0GRBPFULABSx7cVNsRlMga9M01r/wNkOZPN+VV+LRwddO3WnSDPZYv4gCBmXXtrUA6MePSk7CM2/lHU7n0FQVDrFSyi0yIRpH+aC6AhoPBn1pdHKrJ34FBusVQzu3SoGRu4nIjXJGZIVP/cacp/tAL+id6c8Dwy2bOd5jL7153yL8C+rb+rCqr3Pvb6WT8FoE3D1bQ3PpCp6hutM+1WPhFtfaeLjjog0tp+fyWuiPxjZyzlbs5/FYlrlxnf4nbMe07L6AaU1gb4cNhmOjaoelwfk230qtLwCeePU0oc32SQw1kbiDuO9QjMLcZkcrHmUkEdCDBBrLg5Gx1H5irHxQC4gxC7sYuR/5m+b+7eqksSMo5OnrVUBy2JUoxQ8Ex6Toa7L2S8SKW8jkjOCuY65QMwWFPqB6elV4tLnVnUNBBg9AdRWvEk92/k1UgMp7cfPcH0raMuQ+Rf8AiFv31hdMr2iqk8HNA16ToZ9aBgrzG2BrnZspkx5QNCD/ACncHtSvh/ijFwz6qwCNpwu09TzUvFs1q4QhlXOdRuFeNR6HSqaoey5wmI91fa05UJc0J+znA0YdJEz6ntVdi/CFtuTcbyyYHJ7U2uHW4qM6FCozRO42gTvtzyR1omPCYhGyNmK7dQQNVPWQNPTrWcl2DRU4jxCVy2xkA+pHWgeH3xJRz5X0JPDfZb6/caVBg0N94XXpUkjl0ZGytvtUGeaNjULW1dtHWAe4+yfXg0g9/TT60UAVRrHWiW8yEqSVnjg/lSQJmnVYunUr9Y7U6sZl1tIjXt+lJUea1lmkKjdpam7VoChu1AGkWTTGQf7NDtjSsz1WhnpOdR9pfqKmLi/xL9RWVlYnUSF1f4l+orXv1H2l+orKygCa4pT9pfqK0L675h9RWVlFBYRL6n7S/UVuz4git8S+sisrKloaLH/xFInMPqKB+0I2pK/UVlZQI3+7OoZY9RSeIKLJUrPAkVlZQ0CBYDDZpZ2XXbzCh+J3ktIzhlJWAgkH94fhnsNWPZTW6yiMVyQSbor/AAJES3ndhDg3HMjN7tJIH9TGT6kVy+Mxxu3HuMRLtMTsNlUdgIFZWVrPSOVi9+4JiRp355rSsANxr34rdZSENeF4tUJVyMlyEbXadm+RpPFJkdkJEqSN+larKfQEbjA6yO/rUrIDI6kjMPMmvQeZfmNfUd6yspx2AmdCCCIkEid6ulxtlcrrq8xlOo0EaT3g/wBvesrK1i29jK7E49rkBmhdQBPwniTzpA9B2qXh2OyOCTAMK/bow7jf61lZVdAPeJYAM+dSuVt4I0bmO3PzpZriIIEE+v4msrKxB7EsRfL7n9KCqjqKysoQjC4FTs3srBgfXuKysprYBcQADIIytqNfqKgrDqKyspPYyRcdaDmE7isrKEAYuB0qGcdRWVlDA//Z"
+      ],
+      "description": "Battlefield™ 2042 - це шутер від першої особи, в якому серія повертається до легендарних масштабних битв. У майбутньому, де панує хаос, адаптуйтеся і процвітайте на полях бою, що постійно змінюються, завдяки своєму загону і арсеналу новітніх технологій."
+    },
+    {
+      "image": "https://www.stratege.ru/sites/default/files/games/boxart/img/cfd693f0c9e8b4a1e675ec79bcd2fa55.png",
+      "title": "Life is Strange True Colors",
+      "genres": ["Глибокий сюжет", "Протагоністка"],
+      "category": "Хорори",
+      "inWishList": true,
+      "price": 3021,
+      "video": "https://www.youtube.com/embed/b6CkzwVAr0M",
+      "id": 3,
+      "images": [
+        "data:image/jpeg;base64,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",
+        "https://i.playground.ru/p/g7JCLWrojgXRuwYVt3qDKw.jpeg",
+        "https://images.prom.ua/3318935513_w640_h640_life-is-strange.jpg"
+      ],
+      "description": "Алекс Чень від усіх приховує своє «прокляття» — надприродну здатність зчитувати сильні емоції інших та впливати на них. Але коли її брат гине — нібито внаслідок нещасного випадку, Алекс використовує її, щоб дізнатися правду."
+    },
+    {
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202101/2019/sfkfrdlrXWCRCdbztxkuYzVd.png",
+      "title": "Grand Theft Auto V",
+      "genres": ["Відкритий світ", "Екшин"],
+      "category": "Відкритий світ",
+      "inWishList": false,
+      "price": 3789,
+      "video": "https://www.youtube.com/embed/QkkoHAzjnUs",
+      "id": 4,
+      "images": [
+        "https://assets.newatlas.com/dims4/default/f3c22ea/2147483647/strip/true/crop/2160x1440+200+0/resize/1200x800!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Fgta-5-review.jpg",
+        "https://i.pcmag.com/imagery/reviews/00lQx8KXZDuJCuuxXlWB94X-3.fit_scale.size_760x427.v1569479161.jpg",
+        "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2014/11/19/gta-v-primeira-pessoa-03.jpg"
+      ],
+      "description": "Grand Theft Auto V для PC дозволяє гравцям дослідити знаменитий світ Лос-Сантоса та округу Блейн у роздільній здатності до 4k і вище з частотою 60 кадрів на секунду."
+    },
+    {
+      "image": "https://i.playground.ru/p/DbUGqc5LIL1fGItC-z79Pw.jpeg",
+      "title": "Tom Clancy's Rainbow Six® Siege",
+      "genres": ["Тактика", "Шутер"],
+      "category": "Хорори",
+      "inWishList": true,
+      "price": 2982,
+      "video": "https://www.youtube.com/embed/6wlvYh0h63k",
+      "id": 5,
+      "images": [
+        "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4LIHECOUfySNUtikBUgTfO/24ba3a12b8f3fdcaaea2aeb6965fd93e/r6m_sidepromo.jpg",
+        "https://www.heise.de/imgs/18/3/7/0/5/4/1/6/ss_7086825658bb256d2b8394f849ebf2abbee27f27-b894313fd5e77c31.jpeg",
+        "https://www.pluggedin.com/wp-content/uploads/2020/01/Rainbow-Six-Siege-large-1200x688.jpg"
+      ],
+      "description": "Tom Clancy's Rainbow Six Облога - це продовження гучного шутера від першої особи, розробленої студією Ubisoft Montreal."
+    },
+    {
+      "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ZAlQrGYxXi8Bo8PuhJd5g/117dbe6cf56d580c60ad955e28467d88/ACV_Meta_image_website.png",
+      "title": "Assassin’s Creed Valhalla",
+      "genres": ["Паркур", "РПГ", "Відкритий світ"],
+      "category": "Відкритий світ",
+      "inWishList": false,
+      "price": 2863,
+      "video": "https://www.youtube.com/embed/ssrNcwxALS4",
+      "id": 6,
+      "images": [
+        "https://www.overclockers.ua/news/games/126771-Valhalla-2-big.jpg",
+        "https://assassins-creed.ru/uploads/images/acv/screenshots/big/assassins-creed-valhalla-23.jpg",
+        "https://www.allmmorpg.ru/wp-content/uploads/2021/06/LEDE-ART-5fppr-a_Screenshot_2020-11-09_17-29-26-optimized.jpg"
+      ],
+      "description": "Assassin's Creed Valhalla — мультиплатформна гра в жанрі action/RPG, розроблена студією Ubisoft Montreal під видавництвом компанії Ubisoft. Є дванадцятою грою в серії ігор Assassin Creed."
+    },
+
+    {
+      "image": "https://image.api.playstation.com/vulcan/coal-image-prod/cdn/molt/ALL/201905/MOLT2276_ZZ/rUhQGewc1LDM3PMCNg.png",
+      "title": "Outlast",
+      "genres": ["Action", "Adventure", "Indie"],
+      "category": "Хорори",
+      "inWishList": true,
+      "price": 3678,
+      "video": "https://www.youtube.com/embed/8PjSMufgS5w",
+      "id": 7,
+      "description": "Outlast — це справжній досвід жахів на виживання, який має на меті показати, що найжахливіші монстри з усіх походять із людського розуму. Особливості: Справжній досвід жахів на виживання: ви не боєць — якщо ви хочете пережити жахи притулку, ваш єдиний шанс це втекти... або сховатися.",
+      "images": [
+        "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/o/outlast-bundle-of-terror-switch/hero",
+        "https://twinfinite.net/wp-content/uploads/2017/10/Outlast.jpg?fit=700%2C394",
+        "https://gaming-cdn.com/images/products/464/screenshot/outlast-pc-mac-game-steam-wallpaper-1.jpg?v=1662461082"
+      ]
+    },
+    {
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202209/1918/lV9PiAQFj8NULPugOeATcuUC.png",
+      "title": "Dead Space",
+      "genres": ["Action", " Horror", " Mystery"],
+      "category": "Хорори",
+      "inWishList": false,
+      "price": 2030,
+      "video": "https://www.youtube.com/embed/cTDJNZ9cK1w",
+      "id": 8,
+      "description": "Вам доведеться піднятися на борт USG «Ішимура» і зустрітися з кошмаром віч-на-віч. У вашому розпорядженні є класична система стратегічного розчленування, а також інженерні інструменти Айзека, які можна модифікувати під свої потреби.",
+      "images": [
+        "https://i.ytimg.com/vi/ls_mJw6BepM/maxresdefault.jpg",
+        "https://c.dns-shop.ru/thumb/st4/fit/760/600/5d25ec252e7fb811fccf3fdf27d1c59a/q93_cfef27463b3d75469159b77ef3dedf0b5a2ea2dc70e2ff5f439751424f134b31.png",
+        "https://i.playground.ru/p/yboJqm9T_wtxlqYo3jigcA.jpeg"
+      ]
+    },
+    {
+      "image": "https://www.rpgnuke.ru/wp-content/uploads/2020/08/cyberpunk_2077_world-1920x1080.jpg",
+      "title": "Cyberpunk 2077",
+      "genres": ["Action", " Horror", " Mystery"],
+      "category": "Відкритий світ",
+      "inWishList": false,
+      "price": 3968,
+      "video": "https://www.youtube.com/embed/T2CmTnniiOU",
+      "id": 9,
+      "description": "Cyberpunk 2077 — це пригодницька рольова гра з відкритим світом у мегаполісі Найт-Сіті, де ви граєте за кіберпанк-найманця, який загорнутий у боротьбу за виживання «зроби або помри». Досліджуйте темне майбутнє, яке тепер покращено наступним -gen на увазі та безкоштовний додатковий вміст!",
+      "images": [
+        "https://images.gog-statics.com/c75e674590b8947542c809924df30bbef2190341163dd08668e243c266be70c5.jpg",
+        "https://media.gq-magazine.co.uk/photos/5fce371ef264d85bcbdfc033/16:9/w_2560%2Cc_limit/Cyberpunk%25202077.jpg",
+        "https://files.vgtimes.ru/posts/2022-03/1647880711_4379ece7-a52b-4f6a-93c4-8880683b5f26.jpg"
+      ]
+    }
+  ]
+}

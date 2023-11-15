@@ -1,0 +1,25 @@
+.filter-form {
+  border-bottom: 1px solid #8789f4;
+  padding-bottom: 30px;
+}
+
+.search-input {
+  background-color: rgb(30, 48, 102);
+  border: none;
+  padding: 10px;
+  min-width: 30%;
+  margin-right: 30px;
+  color: white;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.397);
+}
+
+.search-label {
+  color: white;
+}
+
+.in-whish-list-checkbox {
+  margin-right: 5px;
+}

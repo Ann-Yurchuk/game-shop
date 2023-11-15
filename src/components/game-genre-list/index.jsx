@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { GameGenre } from "../game-genre/game-genre";
+import { GameGenre } from "../game-genre";
 import "./game-genre-list.css";
 
 export const GameGenreList = ({ genres }) => {

@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
-import { GameCover } from "../../../components/game-cover/game-cover";
-import { GameGenreList } from "../../../components/game-genre-list/game-genre-list";
-import { GameBuy } from "../../../components/game-buy/game-buy";
+import { GameCover } from "../../../components/game-cover";
+import { GameGenreList } from "../../../components/game-genre-list";
+import { GameBuy } from "../../../components/game-buy";
 import "./game-page-content.css";
 
-export const GamePageContent = ({ game }) => {
-  const { video, image, description, genres } = game;
+export const GamePageContent = ({ games }) => {
+  const { video, image, description, genres } = games;
 
   return (
     <div className="game-page-content">
@@ -24,7 +24,7 @@ export const GamePageContent = ({ game }) => {
         <p className="secondary-text">Популярні теги цього продукту:</p>
         <GameGenreList genres={genres} />
         <div className="game-page__buy">
-          <GameBuy game={game} />
+          <GameBuy games={games} />
         </div>
       </div>
     </div>
@@ -32,13 +32,16 @@ export const GamePageContent = ({ game }) => {
 };
 
 GamePageContent.propTypes = {
-  game: PropTypes.exact({
-    video: PropTypes.string,
-    image: PropTypes.string,
-    description: PropTypes.string,
-    genres: PropTypes.arrayOf(PropTypes.string),
-    title: PropTypes.string,
-    price: PropTypes.number,
+  games: PropTypes.exact({
     id: PropTypes.number.isRequired,
+    title: PropTypes.string,
+    category: PropTypes.string,
+    genres: PropTypes.arrayOf(PropTypes.string),
+    video: PropTypes.string,
+    price: PropTypes.number,
+    image: PropTypes.string,
+    inWishList: PropTypes.bool,
+    description: PropTypes.string,
+    images: PropTypes.arrayOf(PropTypes.string),
   }),
 };
