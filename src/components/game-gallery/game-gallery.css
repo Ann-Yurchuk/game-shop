@@ -1,3 +1,16 @@
 .game-gallery {
-  margin: 30px;
+  width: 100%;
+  display: flex;
+  gap: 45px;
+  padding: 20px 5px;
+}
+
+img {
+  height: 140px;
+  width: 30%;
+  transition: 0.2s;
+}
+
+img:hover {
+  transform: scale(1.5);
 }

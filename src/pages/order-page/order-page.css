@@ -1,3 +1,18 @@
 .order-page {
-  color: #fff;
+  color: var(--text-color);
+}
+
+.order-page-empty-basket {
+  padding: 20px;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../../assets/basket.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  min-width: 460px;
+  min-height: 1100px;
 }

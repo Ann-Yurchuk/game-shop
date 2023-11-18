@@ -8,7 +8,11 @@ export const OrderPage = () => {
   const items = useSelector(selectItemsInCart);
 
   if (items.length < 1) {
-    return <h1>Ваш кошик пустий.</h1>;
+    return (
+      <div className="order-page-empty-basket">
+        <h1>Ваш кошик пустий...</h1>
+      </div>
+    );
   }
 
   return (

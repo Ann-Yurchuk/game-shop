@@ -4,4 +4,5 @@ export const calcTotalPrice = (items) =>
 export const URLS = {
   game: "/game",
   order: "/order",
+  search: "/search",
 };

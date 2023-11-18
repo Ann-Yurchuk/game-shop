@@ -5,11 +5,11 @@
   top: -10px;
   width: 20px;
   height: 20px;
-  background-color: red;
+  background-color: var(--error-color);
   border-radius: 15px;
   font-size: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: var(--text-color);
 }

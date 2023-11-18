@@ -3,16 +3,17 @@
   z-index: 2;
   top: 30px;
   left: -300px;
-  background-color: rgb(36, 37, 41);
+  background-color: var(--bg-cart-menu);
   width: 400px;
   padding: 10px 20px;
   border-radius: 15px;
+  box-shadow: "0px 20px 8px rgba(76, 95, 120, 0.6), 0px 3px 1px rgba(76, 95, 120, 0.1)";
 }
 
 .cart-menu__arrange {
   margin-top: 20px;
   padding: 20px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid var(--border-color);
 }
 
 .cart-menu__total-price {
@@ -20,3 +21,5 @@
   justify-content: space-between;
   margin-bottom: 15px;
 }
+
+

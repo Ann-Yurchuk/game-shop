@@ -10,5 +10,5 @@ export const GameGallery = ({ images }) => {
 };
 
 GameGallery.propTypes = {
-  images: PropTypes.arrayOf(PropTypes.object),
+  images: PropTypes.arrayOf(PropTypes.string),
 };

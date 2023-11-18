@@ -1,17 +1,20 @@
 .game-row {
   position: relative;
   padding: 30px 20px;
-  background-color: rgba(43, 43, 43, 0.3);
+  background-color: var(--bg-game-row);
+  color: var(--text-color);
   margin: 20px 0;
 }
 
 .game-in-whish-list {
-  background-color: cornflowerblue;
-  color: white;
-  padding: 5px 10px;
+  background-color: var(--bg-btn-primary);
+  color: var(--text-color);
+  padding: 7px 10px;
   margin-left: 20px;
+  border-radius: 5px;
 }
 
 .game-row-name {
   font-size: 1.5rem;
+  color: var(--text-color);
 }

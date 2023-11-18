@@ -1,3 +1,3 @@
 .game-page {
-  color: #fff;
+  color: var(--text-color);
 }

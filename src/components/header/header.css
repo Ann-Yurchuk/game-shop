@@ -9,7 +9,7 @@
 .wrapper {
   display: flex;
   flex-grow: 1;
-  color: #fff;
+  color: var(--text-color);
 }
 
 .header__store-title {
@@ -20,4 +20,5 @@
 
 .header__cart-btn-wrapper {
   justify-content: flex-end;
+  gap: 10px;
 }

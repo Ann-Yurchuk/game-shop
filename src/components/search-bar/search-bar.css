@@ -1,23 +1,23 @@
 .filter-form {
-  border-bottom: 1px solid #8789f4;
+  border-bottom: 1px solid var(--border-form);
   padding-bottom: 30px;
 }
 
 .search-input {
-  background-color: rgb(30, 48, 102);
+  background-color: var(--bg-search);
   border: none;
   padding: 10px;
   min-width: 30%;
   margin-right: 30px;
-  color: white;
+  color: var(--text-color);
 }
 
 .search-input::placeholder {
-  color: rgba(255, 255, 255, 0.397);
+  color: var(--search-color);
 }
 
 .search-label {
-  color: white;
+  color: var(--text-color);
 }
 
 .in-whish-list-checkbox {
