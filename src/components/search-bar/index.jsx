@@ -9,18 +9,22 @@ export const SearchBar = ({
 }) => {
   return (
     <form className="filter-form">
-      <input
-        type="text"
-        className="search-input"
-        placeholder="Пошук по назві"
-        value={filterText}
-        onChange={(e) => setFilterText(e.target.value)}
-      />
       <label className="search-label">
         <input
+          type="text"
+          name="filterText"
+          className="search-input"
+          placeholder="Пошук по назві"
+          value={filterText}
+          onChange={(e) => setFilterText(e.target.value)}
+        />
+      </label>
+      <label className="search-label">
+        <input
+          name="inWhishListOnly"
           type="checkbox"
           className="in-whish-list-checkbox"
-          value={inWhishListOnly}
+          checked={inWhishListOnly}
           onChange={(e) => setInWhishListOnly(e.target.checked)}
         />
         Тільки в списку бажаного

@@ -20,6 +20,6 @@ export const GamePage = () => {
 
 GamePage.propTypes = {
   games: PropTypes.shape({
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
   }),
 };
